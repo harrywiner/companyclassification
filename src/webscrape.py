@@ -61,5 +61,5 @@ def get_exhibitors():
 
 companies = get_exhibitors()
 
-with open('/home/beanboy/projects/techjobsfair/companies.json', 'w') as file: json.dump(companies, file)
+with open('/home/beanboy/projects/techjobsfair/data/companies.json', 'w') as file: json.dump(companies, file)
 

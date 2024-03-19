@@ -60,9 +60,9 @@ def write_classifications(companies):
 
       new_companies.append(new_company)
   except KeyboardInterrupt:
-    with open('companies_classifications.json', 'w') as file:
+    with open('data/companies_classifications.json', 'w') as file:
       json.dump(new_companies, file)
-  with open('companies_classifications.json', 'w') as file:
+  with open('data/companies_classifications.json', 'w') as file:
     json.dump(new_companies, file)
 
 write_classifications(companies)
